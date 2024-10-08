@@ -23,11 +23,6 @@ struct intlist {
     intlist(int i, intlist* ptr) : integer(i), next(ptr) {}
 };
 
-intlist* prepend(int integer, intlist* next) {
-    intlist* newIntlist = new intlist(integer, next);
-    return newIntlist;
-}
-
 class IntStack {
 private:
     intlist* head;
