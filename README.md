@@ -1,5 +1,6 @@
 # algogroup-question2-stack
 I did question 2 the stack implementation
+
 Methodology/reasoning:
 to implement my stack, i used a link list where the head of the linked list is 
 the top of the stack. When you push, i just updated the head to be the new node
@@ -15,8 +16,11 @@ I didn't write any formal tests but I tested out my implementation by creating a
 function and manually checking if the output is correct or not. You can see this 
 in main(). I think my implementation seems to be working as expected.
 
-to compile run: 
+to compile run:
+
 $ g++ -o option2 option2.cpp
+
 to run compiled file: 
+
 $ ./option2
 
